@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+.head {
+    padding: 0px !important;
+}
+
+.navbar {
+    color: black;
+    background: tomato;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-title {
+    margin: .5rem;
+}
+
+#a_btitle {
+    text-decoration: none;
+    color: #00000094;
+    font-family: cursive;
+}
+
+#ab_t {
+    color: green;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: rgba(248, 248, 15, 0.753);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 661px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links ul li {
+        text-align: center;
+    }
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.intro {
+    background-color: tomato;
+}
+
+.i_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.i_moto {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+#im_t {
+    color: green;
+}
+
+#il_img {
+    width: 500px;
+    height: 350px;
+}
+
+.project {
+    align-items: center;
+}
+
+.p_text_t {
+    font-size: 150px;
+    font-weight: 200;
+    color: green;
+}
+
+.p_text_r {
+    font-size: 150px;
+    font-weight: 200;
+    color: black;
+}
+
+.p_text_e {
+    font-size: 150px;
+    font-weight: 200;
+    color: yellow;
+}
+
+.p_text_w {
+    font-size: 150px;
+    font-weight: 200;
+    color: blue;
+}
+
+.intro-t {
+    background-color: #28f338c2;
+}
+
+.intro-r {
+    background-color: whitesmoke;
+}
+
+.intro-e {
+    background-color: #ffec47;
+}
+
+.intro-w {
+    background-color: #80deea;
+}
+
+.trew_img {
+    width: 210px;
+    height: 180px;
+}
+
+.trew_text {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+@media (max-width:508px) {
+    #il_img {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media (max-width:386px) {
+    #il_img {
+        width: 265px;
+        height: 225px;
+    }
+    #a_btitle h3 {
+        font-size: 1.2rem;
+    }
+    .i_moto {
+        font-size: 1.3rem;
+    }
+    .toggle-button {
+        top: 1.05rem;
+        right: 1rem;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.conclude {
+    background-color: tomato;
+}
+
+.c_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family: cursive;
+    line-height: initial;
+    margin-left: 10px;
+}
+
+.c_block_1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: cursive;
+    line-height: initial;
+    margin-left: 15px;
+}
+
+@media(max-width: 540px) {
+    #c_img {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 381px) {
+    #c_img {
+        width: 255px;
+        height: 190px;
+    }
+}
